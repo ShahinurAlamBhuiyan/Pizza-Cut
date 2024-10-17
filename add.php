@@ -1,5 +1,17 @@
 <?php
 
+    // if(isset($_GET['submit'])){
+    //     echo $_GET['email'];
+    //     echo $_GET['title'];
+    //     echo $_GET['ingredients'];
+    // }
+
+    if(isset($_POST['submit'])){
+        echo $_POST['email'];
+        echo $_POST['title'];
+        echo $_POST['ingredients'];
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +22,7 @@
         <h4 class="center">
             Add a Pizza
         </h4>
-        <form action="" class="white" method="">
+        <form action="add.php" class="white" method="POST">
             <label for="">Your Email:</label>
             <input type="text" name="email">
             <label for="">Pizza Title:</label>

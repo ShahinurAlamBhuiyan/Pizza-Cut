@@ -11,6 +11,11 @@
         .brand-text{
             color: #cbb09c !important;
         }
+        form{
+            min-width: 460px;
+            margin: 20px auto;
+            padding: 20px;
+        }
     </style>
 </head>
 <body class="red  lighten-4">
